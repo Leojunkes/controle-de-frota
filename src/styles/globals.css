@@ -1,0 +1,72 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #ffffff;
+  --gray-900: #1c1c1c;
+  --gray-800: #212529;
+  --gray-500: #495057;
+  --gray-50: #c6c6c6;
+  --red: #e03131;
+  --red-50: #f03e3e;
+  --green: #82c91e;
+  --green-50: #94d82d;
+  --black: #000000;
+  --blue: #3b5bdb;
+  --purple: #8a2be2;
+  --laranja: #f78f1e;
+}
+
+@media (max-width: 2800px) {
+  html {
+    font-size: 95.75%;
+  }
+  .veiculos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 960px) {
+  html {
+    font-size: 90.5%;
+  }
+  .veiculos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 630px) {
+  html {
+    font-size: 95, 5%;
+  }
+  .veiculos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+body,
+imput,
+textarea,
+select,
+button {
+  font: 400 1rem "Roboto", sans-serif;
+}
+
+body {
+  background: var(--gray-900);
+  color: var(--white);
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

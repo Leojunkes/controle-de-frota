@@ -1,0 +1,146 @@
+{
+  "veiculos": [
+    {
+      "id": 1,
+      "nome": "Fiat/Fiorino",
+      "ano": "2017/2018",
+      "vencimentoIpva": "31/08/2022",
+      "vencimentoIpvaCota1": "10/08/2022",
+      "placa": "QIH8218",
+      "renavan": "1131144250",
+      "valorIpva": 1105.03,
+      "tipo": "Caminhonete",
+      "cor": "branca"
+    },
+    {
+      "id": 2,
+      "nome": "Renault/Logan",
+      "ano": "2016/2017",
+      "vencimentoIpva": "01/08/2022",
+      "vencimentoIpvaCota1": "11/07/2022",
+      "placa": "QIG5687",
+      "renavan": "1126803747",
+      "valorIpva": 989.85,
+      "tipo": "Automóvel",
+      "cor": "branca"
+    },
+    {
+      "id": 3,
+      "nome": "Renault/masterCH",
+      "ano": "2017/2018",
+      "vencimentoIpva": "02/05/2022",
+      "vencimentoIpvaCota1": "11/04/2022",
+      "placa": "QIF2374",
+      "renavan": "1117838614",
+      "valorIpva": 2042.91,
+      "tipo": "Caminhonete",
+      "cor": "branca"
+    },
+    {
+      "id":4,
+      "nome": "Renault/InovaMCA",
+      "ano": "2010/2011",
+      "vencimentoIpva": "31/05/2022",
+      "vencimentoIpvaCota1": "10/05/2022",
+      "placa": "IRE2875",
+      "renavan": "251012239",
+      "valorIpva": 1399.99,
+      "tipo": "Motor-casa",
+      "cor": "branca"
+    },
+    {
+      "id": 5,
+      "nome": "Fiat/Uno",
+      "ano": "2012/2013",
+      "vencimentoIpva": "02/05/2022",
+      "vencimentoIpvaCota1": "11/04/2022",
+      "placa": "AWJ6714",
+      "renavan": "504153323",
+      "valorIpva": 531.25,
+      "tipo": "Automóvel",
+      "cor": "branca"
+    },
+    {
+      "id": 6,
+      "nome": "",
+      "ano": "2011/2012",
+      "vencimentoIpva": "",
+      "status": "pago",
+      "vencimentoIpvaCota1": "",
+      "placa": "MIZ3287",
+      "renavan": "353780413",
+      "valorIpva": 1105.03,
+      "tipo": "Camioneta",
+      "cor": "branca"
+    },
+    {
+      "id": 7,
+      "nome": "Hyundai/HR",
+      "ano": "2011/2012",
+      "vencimentoIpva": "30/06/2022",
+      "vencimentoIpvaCota1": "10/06/2022",
+      "placa": "MJB6046",
+      "renavan": "347400272",
+      "valorIpva": 1052.19,
+      "tipo": "Caminhonete",
+      "cor": "branca"
+    },
+    {
+      "id": 8,
+      "nome": "Fiat/Fiorino",
+      "ano": "2011/2011",
+      "vencimentoIpva": "",
+      "vencimentoIpvaCota1": "",
+      "status": "pago",
+      "placa": "MIA0352",
+      "renavan": 306881209,
+      "valorIpva": "",
+      "tipo": "Caminhonete",
+      "cor": "branca"
+    },
+    {
+      "id": 9,
+      "nome": "Ford/Fiesta/Sedan",
+      "ano": "2009/2009",
+      "vencimentoIpva": "31/05/2022",
+      "vencimentoIpvaCota1": "10/05/2022",
+      "placa": "MGD9655",
+      "renavan": "151701660",
+      "valorIpva": 710.98,
+      "tipo": "Automóvel",
+      "cor": "prata"
+    },
+    {
+      "id": 10,
+      "nome": "VW",
+      "ano": "1999/1999",
+      "vencimentoIpva": "02/05/2022",
+      "vencimentoIpvaCota1": "11/04/2022",
+      "placa": "MAK4834",
+      "renavan": "719196272",
+      "valorIpva": 737.35,
+      "tipo": "Caminhão",
+      "cor": "branca"
+    },
+    {
+      "id": 11,
+      "nome": "VW",
+      "ano": "2017/2018",
+      "vencimentoIpva": "31/10/2022",
+      "vencimentoIpvaCota1": "10/10/2022",
+      "placa": "QIM5240",
+      "renavan": "1139564762",
+      "valorIpva": 1105.03,
+      "tipo": "Caminhonete",
+      "cor": "branca"
+    }
+  ],
+  "multa": [
+    {
+      "id": "1",
+      "infracao": "",
+      "data": "",
+      "valor": ""
+    }
+  ]
+}
