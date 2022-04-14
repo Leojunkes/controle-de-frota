@@ -16,6 +16,7 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap"
             rel="stylesheet"
           />
+          <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Titillium+Web&display=swap" rel="stylesheet"></link>
 
           <link rel="icon" href="" />
           <link

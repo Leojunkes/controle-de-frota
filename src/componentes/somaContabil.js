@@ -1,4 +1,4 @@
-import { Box, Flex } from "@chakra-ui/react";
+import { Box, Flex, Text } from "@chakra-ui/react";
 import data from "../../data/veiculos.json";
 export default function Sum() {
   var quantidade = 1;
@@ -11,30 +11,38 @@ export default function Sum() {
     <Flex>
       <Box
         display="flex"
+        flexDirection="column"
         alignItems="center"
         justifyContent="center"
-        color="gray.300"
+        color="gray.100"
         h="60px"
-        w="100px"
-        bg="#0a0a0a"
+        padding="0 20px 0 20px"
+        borderRadius="8px"
+        bg="#3460ce"
         fontSize="1.1rem"
       >
-        {new Intl.NumberFormat("pt-BR", {
-          style: "currency",
-          currency: "BRL",
-        }).format(total1)}
+        <Text>TOTAL IPVA</Text>
+        <Text fontSize="1.2rem" fontFamily='Questrial'>
+          {new Intl.NumberFormat("pt-BR", {
+            style: "currency",
+            currency: "BRL",
+          }).format(total1)}
+        </Text>
       </Box>
       <Box
         display="flex"
+        flexDirection="column"
+        borderRadius="8px"
         alignItems="center"
         justifyContent="center"
-        color="gray.300"
+        color="gray.100"
         h="60px"
         w="100px"
-        bg="#0a0a0a"
+        bg="#410098"
         fontSize="1.1rem"
       >
-        {totalCar}
+        <Text>CARROS</Text>
+        <Text fontSize="1.2rem" fontFamily='Questrial'>{totalCar}</Text>
       </Box>
     </Flex>
   );

@@ -7,7 +7,7 @@ import {
   Badge,
   Input,
 } from "@chakra-ui/react";
-import { useState } from "react";
+import { useState, setState } from "react";
 import frota from "../../data/veiculos.json";
 
 export default function FrotaForm() {
@@ -21,7 +21,7 @@ export default function FrotaForm() {
   const [newvalorIpva, setValorIpva] = useState("");
   const [newtipo, setTipo] = useState("");
   const [newcor, setCor] = useState("");
-  console.log(frotaNew);
+  console.log(frotaNew[4]);
 
   function handleCars(e) {
     e.preventDefault();
@@ -39,6 +39,7 @@ export default function FrotaForm() {
     };
     //var frotaPush = frota.veiculos.push(newFrota);
     //console.log(frotaPush);
+
     console.log(newFrota);
     alert("carro incluído com sucesso!");
     setFrota(() => [...frotaNew, newFrota]);
@@ -53,29 +54,29 @@ export default function FrotaForm() {
         flexDirection="column"
         onSubmit={handleCars}
         background="var(--gray-700)"
-        border="1px solid #eba417"
-        alignItems="center"
-        mt="-30px"
-        borderRadius="8px"
-        width="25rem"
         h="100%"
-        boxShadow="6.48483px 12.4075px 0px rgba(0, 0, 0, 0.24), 4.7167px 9.02455px 0px rgba(0, 0, 0, 0.19425), 3.28294px 6.28132px 0px rgba(0, 0, 0, 0.162), 2.15316px 4.11969px 0px rgba(0, 0, 0, 0.13875), 1.29697px 2.48151px 0px rgba(0, 0, 0, 0.12), 0.683946px 1.30861px 0px rgba(0, 0, 0, 0.10125), 0.283711px 0.54283px 0px rgba(0, 0, 0, 0.078), 0.0658615px 0.126014px 0px rgba(0, 0, 0, 0.04575);"
       >
         <label style={{ marginTop: "10px" }} htmlFor="">
-          <big style={{ color: "#eac74a" }}>Formulário</big>
+          <big style={{ color: "black", fontSize: "1.6rem" }}>Formulário</big>
         </label>
 
-        <Flex mt="4" flexDirection="column">
+        <Flex
+          paddingBottom="25px"
+          fontSize="1.4rem"
+          m="10px 0 0 10px"
+          flexDirection="column"
+        >
           <Stack spacing="2">
-            <label className="nome" htmlFor="">
+            <Text className="nome" htmlFor="">
               Nome
-            </label>
+            </Text>
             <Input
               id="nome"
               color="gray.900"
               className="inputGroup"
               type="text"
               placeholder=""
+              w="100%"
               onChange={(e) => setNome(e.target.value)}
               value={newnome}
               focusBorderColor="yellow.200"
@@ -206,9 +207,19 @@ export default function FrotaForm() {
                   onClick={salvarStorage}
                   colorScheme="green"
                   type="button"
-                  w="50%"
                 >
                   Salvar
+                </Button>
+              </Link>
+              <Link href="/">
+                <Button
+                  boxShadow="6.48483px 12.4075px 0px rgba(0, 0, 0, 0.24), 4.7167px 9.02455px 0px rgba(0, 0, 0, 0.19425), 3.28294px 6.28132px 0px rgba(0, 0, 0, 0.162), 2.15316px 4.11969px 0px rgba(0, 0, 0, 0.13875), 1.29697px 2.48151px 0px rgba(0, 0, 0, 0.12), 0.683946px 1.30861px 0px rgba(0, 0, 0, 0.10125), 0.283711px 0.54283px 0px rgba(0, 0, 0, 0.078), 0.0658615px 0.126014px 0px rgba(0, 0, 0, 0.04575);"
+                  border="none"
+                  onClick={salvarStorage}
+                  colorScheme="blue"
+                  type="button"
+                >
+                  voltar
                 </Button>
               </Link>
             </Flex>

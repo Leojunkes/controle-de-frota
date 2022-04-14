@@ -1,32 +1,184 @@
 {
   "veiculos": [
     {
-      "id": 1,
-      "nome": "Fiat/Fiorino",
-      "ano": "2017/2018",
-      "vencimentoIpva": "31/08/2022",
-      "vencimentoIpvaCota1": "10/08/2022",
-      "placa": "QIH8218",
-      "renavan": "1131144250",
-      "valorIpva": 1105.03,
-      "tipo": "Caminhonete",
-      "cor": "branca"
+      "id": 9,
+      "nome": "Caminhão-17",
+      "ano": "1999/1999",
+      "vencimentoIpva": "02/05/2022",
+      "vencimentoIpvaCota1": "11/04/2022",
+      "placa": "MAK4834",
+      "renavan": "719196272",
+      "valorIpva": 737.35,
+      "tipo": "Caminhão-17",
+      "cor": "branca",
+      "Totalmultas": 0,
+      "multasVeiculos": [
+        {
+          "multa1": "",
+          "multaValor1": 0,
+          "multa1_data": "0"
+        },
+        {
+          "multa2": "",
+          "multa2_valor": 0,
+          "multa2_data": "0"
+        }
+      ]
     },
     {
-      "id": 2,
-      "nome": "Renault/Logan",
-      "ano": "2016/2017",
+      "id": 10,
+      "nome": "Bongo-18-aberta",
+      "ano": "2019/2020",
+      "vencimentoIpva": "pago",
+      "vencimentoIpvaCota1": "",
+      "placa": "RDY9E52",
+      "renavan": "1226516685",
+      "valorIpva": "0",
+      "tipo": "Bongo-18",
+      "cor": "branca",
+      "Totalmultas": 2,
+      "multasVeiculos": [
+        {
+          "multa1": "TRANSITAR EM VELOC SUPERIOR À MÁX PERMITIDA EM MAIS DE 50%-RIO NEGRINHO",
+          "multaValor1": 880.41,
+          "multa1_data": "25/01/2022"
+        },
+        {
+          "multa2": "TRANSITAR EM VELOC SUPERIOR À MÁX PERMITIDA EM MAIS DE 20%-TUBARÃO",
+          "multa2_valor": 130.16,
+          "multa2_data": "25/01/2022"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "nome": "Master-21-baú",
+      "ano": "2018/2019",
+      "vencimentoIpva": "pago",
+      "vencimentoIpvaCota1": "",
+      "placa": "QJQ3G11",
+      "renavan": "1146927204",
+      "valorIpva": "0",
+      "tipo": "Master-21",
+      "cor": "branca",
+      "Totalmultas": "0",
+      "multasVeiculos": [
+        {
+          "multa1": "",
+          "multaValor1": 0,
+          "multa1_data": "0"
+        },
+        {
+          "multa2": "",
+          "multa2_valor": 0,
+          "multa2_data": "0"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "nome": "Bongo-15-aberta",
+      "ano": "2021/2022",
+      "vencimentoIpva": "30/06/2022",
+      "vencimentoIpvaCota1": "10/06/2022",
+      "placa": "RLN2D96",
+      "renavan": "1273823653",
+      "valorIpva": "2503.83",
+      "tipo": "Bongo-15",
+      "cor": "branca",
+      "Totalmultas": "0",
+      "multasVeiculos": [
+        {
+          "multa1": "",
+          "multaValor1": 0,
+          "multa1_data": "0"
+        },
+        {
+          "multa2": "",
+          "multa2_valor": 0,
+          "multa2_data": "0"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "nome": "Kwid-14",
+      "ano": "2020/2021",
+      "vencimentoIpva": "pago",
+      "vencimentoIpvaCota1": "pago",
+      "placa": "RDV2F11",
+      "renavan": "1223467640",
+      "valorIpva": "0",
+      "tipo": "Qwid-14",
+      "cor": "branca",
+      "Totalmultas": "0",
+      "multasVeiculos": [
+        {
+          "multa1": "",
+          "multaValor1": 0,
+          "multa1_data": "0"
+        },
+        {
+          "multa2": "",
+          "multa2_valor": 0,
+          "multa2_data": "0"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "nome": "Master-20-baú",
+      "ano": "2021/2022",
       "vencimentoIpva": "01/08/2022",
       "vencimentoIpvaCota1": "11/07/2022",
-      "placa": "QIG5687",
-      "renavan": "1126803747",
-      "valorIpva": 989.85,
-      "tipo": "Automóvel",
-      "cor": "branca"
+      "placa": "RXR1A87",
+      "renavan": "1277631120",
+      "valorIpva": "2892.19",
+      "tipo": "Master-20",
+      "cor": "branca",
+      "Totalmultas": "0",
+      "multasVeiculos": [
+        {
+          "multa1": "",
+          "multaValor1": 0,
+          "multa1_data": "0"
+        },
+        {
+          "multa2": "",
+          "multa2_valor": 0,
+          "multa2_data": "0"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "nome": "Kwid-11",
+      "ano": "2021/2022",
+      "vencimentoIpva": "31/08/2022",
+      "vencimentoIpvaCota1": "10/08/2022",
+      "placa": "RXN5G48",
+      "renavan": "1280032755",
+      "valorIpva": "1044.29",
+      "tipo": "Qwid-14",
+      "cor": "branca",
+      "Totalmultas": "2",
+
+      "multasVeiculos": [
+        {
+          "multa1": "TRANSITAR EM VELOC SUPERIOR À MÁX PERMITIDA EM MAIS DE 20%-ÁGUAS MORNAS",
+          "multaValor1": 130.16,
+          "multa1_data": "03/04/2022"
+        },
+        {
+          "multa2": "TRANSITAR EM VELOC SUPERIOR À MÁX PERMITIDA EM MAIS DE 20%-PALHOÇA",
+          "multa2_valor": 130.16,
+          "multa2_data": "03/04/2022"
+        }
+      ]
     },
     {
       "id": 3,
-      "nome": "Renault/masterCH",
+      "nome": "Master-22-Aberta",
       "ano": "2017/2018",
       "vencimentoIpva": "02/05/2022",
       "vencimentoIpvaCota1": "11/04/2022",
@@ -34,97 +186,78 @@
       "renavan": "1117838614",
       "valorIpva": 2042.91,
       "tipo": "Caminhonete",
-      "cor": "branca"
+      "cor": "branca",
+      "Totalmultas": 0,
+      "multasVeiculos": [
+        {
+          "multa1": "",
+          "multaValor1": 0,
+          "multa1_data": "0"
+        },
+        {
+          "multa2": "",
+          "multa2_valor": 0,
+          "multa2_data": "0"
+        }
+      ]
     },
     {
-      "id":4,
-      "nome": "Renault/InovaMCA",
-      "ano": "2010/2011",
-      "vencimentoIpva": "31/05/2022",
-      "vencimentoIpvaCota1": "10/05/2022",
-      "placa": "IRE2875",
-      "renavan": "251012239",
-      "valorIpva": 1399.99,
-      "tipo": "Motor-casa",
-      "cor": "branca"
-    },
-    {
-      "id": 5,
-      "nome": "Fiat/Uno",
-      "ano": "2012/2013",
-      "vencimentoIpva": "02/05/2022",
-      "vencimentoIpvaCota1": "11/04/2022",
-      "placa": "AWJ6714",
-      "renavan": "504153323",
-      "valorIpva": 531.25,
+      "id": 2,
+      "nome": "Logan-19",
+      "ano": "2016/2017",
+      "vencimentoIpva": "01/08/2022",
+      "vencimentoIpvaCota1": "11/07/2022",
+      "placa": "QIG5687",
+      "renavan": "1126803747",
+      "valorIpva": 989.85,
       "tipo": "Automóvel",
-      "cor": "branca"
+      "cor": "branca",
+      "Totalmultas": 0,
+      "multasVeiculos": [
+        {
+          "multa1": "",
+          "multaValor1": 0,
+          "multa1_data": "0"
+        },
+        {
+          "multa2": "",
+          "multa2_valor": 0,
+          "multa2_data": "0"
+        }
+      ]
     },
     {
-      "id": 6,
-      "nome": "",
-      "ano": "2011/2012",
-      "vencimentoIpva": "",
-      "status": "pago",
-      "vencimentoIpvaCota1": "",
-      "placa": "MIZ3287",
-      "renavan": "353780413",
+      "id": 1,
+      "nome": "Fiorino-16",
+      "ano": "2017/2018",
+      "vencimentoIpva": "31/08/2022",
+      "vencimentoIpvaCota1": "10/08/2022",
+      "placa": "QIH8218",
+      "renavan": "1131144250",
       "valorIpva": 1105.03,
-      "tipo": "Camioneta",
-      "cor": "branca"
-    },
-    {
-      "id": 7,
-      "nome": "Hyundai/HR",
-      "ano": "2011/2012",
-      "vencimentoIpva": "30/06/2022",
-      "vencimentoIpvaCota1": "10/06/2022",
-      "placa": "MJB6046",
-      "renavan": "347400272",
-      "valorIpva": 1052.19,
       "tipo": "Caminhonete",
-      "cor": "branca"
+      "cor": "branca",
+      "Totalmultas": 1,
+
+      "multa1_valor": 1467.34,
+      "multa1_data": "17/02/2022",
+      "multasVeiculos": [
+        {
+          "multa1": "ULTRAPASSAR NA CONTRAMÃO (Motorista-Charles)",
+          "multaValor1": 1467.34,
+          "multa1_data": "0"
+        },
+        {
+          "multa2": "",
+          "multa2_valor": 0,
+          "multa2_data": "0"
+        }
+      ]
     },
+
     {
-      "id": 8,
-      "nome": "Fiat/Fiorino",
-      "ano": "2011/2011",
-      "vencimentoIpva": "",
-      "vencimentoIpvaCota1": "",
-      "status": "pago",
-      "placa": "MIA0352",
-      "renavan": 306881209,
-      "valorIpva": "",
-      "tipo": "Caminhonete",
-      "cor": "branca"
-    },
-    {
-      "id": 9,
-      "nome": "Ford/Fiesta/Sedan",
-      "ano": "2009/2009",
-      "vencimentoIpva": "31/05/2022",
-      "vencimentoIpvaCota1": "10/05/2022",
-      "placa": "MGD9655",
-      "renavan": "151701660",
-      "valorIpva": 710.98,
-      "tipo": "Automóvel",
-      "cor": "prata"
-    },
-    {
-      "id": 10,
-      "nome": "VW",
-      "ano": "1999/1999",
-      "vencimentoIpva": "02/05/2022",
-      "vencimentoIpvaCota1": "11/04/2022",
-      "placa": "MAK4834",
-      "renavan": "719196272",
-      "valorIpva": 737.35,
-      "tipo": "Caminhão",
-      "cor": "branca"
-    },
-    {
-      "id": 11,
-      "nome": "VW",
+      "id": 12,
+      "nome": "Fiorino-12",
       "ano": "2017/2018",
       "vencimentoIpva": "31/10/2022",
       "vencimentoIpvaCota1": "10/10/2022",
@@ -132,7 +265,20 @@
       "renavan": "1139564762",
       "valorIpva": 1105.03,
       "tipo": "Caminhonete",
-      "cor": "branca"
+      "cor": "branca",
+      "Totalmultas": 0,
+      "multasVeiculos": [
+        {
+          "multa1": "ULTRAPASSAR NA CONTRAMÃO (Motorista-Charles)",
+          "multaValor1": 1467.34,
+          "multa1_data": "0"
+        },
+        {
+          "multa2": "",
+          "multa2_valor": 0,
+          "multa2_data": "0"
+        }
+      ]
     }
   ],
   "multa": [
