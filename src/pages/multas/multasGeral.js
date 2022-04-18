@@ -23,23 +23,20 @@ export default function Multas() {
       v.multasVeiculos.map((v) => (
         <>
           <Box>
-            <VStack>
-              <Text>{v.multa1}</Text>
-              <Text> {v.multaValor1}</Text>
-            </VStack>
+            <Text>{v.multa1}</Text>
+            <pre>{v.multaValor1}</pre>
+            <Text>{v.multa1_data}</Text>
           </Box>
           <Box mt="30px">
-            <VStack>
-              <Text>{v.multa2}</Text>
-              <Text> {v.multa2_valor}</Text>
-              
-            </VStack>
+            <Text>{v.multa2}</Text>
+            <pre>{v.multa2_valor}</pre>
+            <Text>{v.multa2_data}</Text>
           </Box>
         </>
       )),
     ];
 
-    setData(cart);
+    setData([...cart]);
     console.log(data);
   }, []);
   const semData = (
@@ -63,8 +60,8 @@ export default function Multas() {
               <Text>{data === 0 ? "sem multas" : data}</Text>
             </Box>
           </Box>
-          <Link href='/'>
-            <Button bg='lightcoral' m="0 auto" type="button">
+          <Link href="/">
+            <Button bg="lightcoral" m="0 auto" type="button">
               Voltar
             </Button>
           </Link>
