@@ -7,6 +7,7 @@ import {
   Grid,
   SelectField,
   Link,
+  Image,
 } from "@chakra-ui/react";
 import { Button, CardGroup, Card, CardImg, CardBody } from "reactstrap";
 import { useState, useEffect } from "react";
@@ -63,32 +64,48 @@ const Content = () => {
 
   return (
     <>
-      <div style={{ margin: "10px 10px 0 10px", gap: 8,fontFamily:'Questrial',fontSize:'18px' }} className="veiculos">
+      <div
+        style={{
+          margin: "8px",
+          gap: 8,
+          fontFamily: "Questrial",
+          fontSize: "18px",
+        }}
+        className="veiculos"
+      >
         {frota.veiculos.map((v) => (
-          <CardGroup>
+          <Flex>
             <HStack>
-              <Card>
-                <CardImg
+              <Box width="94%"  border='1px solid #3460ce'>
+                <Box>
+                <Image
                   alt="Card image cap"
                   src="/imagens/frotawi.png"
-                  style={{ width: "27rem", height: "" }}
-                  width="100%"
+                  width="26rem"
                 />
+                </Box>
+                
 
-                <CardBody>
+                <Box>
                   <Box
                     w="70%"
-                    m="0 auto"
+                    m="8px auto"
                     display="flex"
                     justifyContent="center"
                     border="3px solid black"
                   >
-                    <Text fontFamily='Roboto' fontWeight='700' fontSize="1.5rem" color="gray.900" tag="h5">
+                    <Text
+                      fontFamily="Roboto"
+                      fontWeight="700"
+                      fontSize="1.5rem"
+                      color="gray.900"
+                      tag="h5"
+                    >
                       {v.placa}
                     </Text>
                   </Box>
                   <Box mr="150px">
-                    <Box mt="10px">
+                    <Box m="10px 0 0 20px">
                       <Text fontWeight="" tag="h5">
                         <label
                           style={{
@@ -128,7 +145,7 @@ const Content = () => {
                       </Text>
                     </Box>
 
-                    <Flex>
+                    <Flex m='0 0 0 20px'>
                       <Text
                         fontSize="1.1rem"
                         fontFamily="Questrial"
@@ -154,7 +171,7 @@ const Content = () => {
                     <Box>
                       <Text></Text>
                     </Box>
-                    <Flex>
+                    <Flex m='0 0 0 20px'>
                       <Text
                         fontSize="1.1rem"
                         fontFamily="Questrial"
@@ -162,9 +179,11 @@ const Content = () => {
                       >
                         Venc.Parcela1:
                       </Text>
-                      <Text fontFamily='Questrial' ml="10px">{v.vencimentoIpvaCota1}</Text>
+                      <Text fontFamily="Questrial" ml="10px">
+                        {v.vencimentoIpvaCota1}
+                      </Text>
                     </Flex>
-                    <Box>
+                    <Box m='0 0 0 20px'>
                       <Text
                         fontSize="1.1rem"
                         fontFamily="Questrial"
@@ -181,7 +200,7 @@ const Content = () => {
                     </Box>
                   </Box>
                   <Link href="multas/multasGeral">
-                    <Box m="8px 55px 0 0" justifyContent="" display="flex">
+                    <Box m="8px " justifyContent="" display="flex">
                       <Button
                         onClick={() => veiculeDetail(v.id)}
                         type="button"
@@ -191,10 +210,10 @@ const Content = () => {
                       </Button>
                     </Box>
                   </Link>
-                </CardBody>
-              </Card>
+                </Box>
+              </Box>
             </HStack>
-          </CardGroup>
+          </Flex>
         ))}
       </div>
     </>

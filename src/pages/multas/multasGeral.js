@@ -17,8 +17,9 @@ export default function Multas() {
   const [data, setData] = useState();
   useEffect(() => {
     //const veiculesV = localStorage.getItem("veicules");
-    var veiculesV = window.localStorage.getItem("veicules");
+    var veiculesV = localStorage.getItem("veicules");
     var v = JSON.parse(veiculesV);
+    const r = 'R$ : '
     const cart = [
       v.multasVeiculos.map((v) => (
         <>
